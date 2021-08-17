@@ -1,0 +1,114 @@
+/* chay tren tablet va mobile */
+@media(max-width:1023px){
+    /* lam cho phan dien thong tin to ra */
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    /* tang do rong giua cac hang trong phan info */
+    .contact-info{
+        line-height: 2.1;
+    }
+    
+}
+
+
+/* chay tren mobile */
+@media(max-width:739px){
+/* phan dung chung */
+   .s-col-full{
+       width: 100%;
+   }
+   .s-full-width{
+       width: 100%;
+   }
+   .s-mt-16{
+       margin-top: 16px;
+   }
+   .s-mt-32{
+       margin-top: 32px;
+   }
+   .s-mt-8{
+       margin-top: 8px;
+   }
+
+
+    #nav > li{
+        display: block;/*de cho cac phan tu khong nam tren 1 hang ngang nua ma nam tren theo hang doc*/
+    }
+    #header{
+        overflow: hidden;
+    }
+
+    /* day la phan lam o menu tren mobile */
+    #header .search-buttom{
+    display: none;/*an di o search tren pc vi tren mobile khong can*/
+    }
+ 
+
+    /*  day la phan lam cho hien o menu tren mobile*/
+    #header .menu-icon{
+        display: block;
+    }
+    /* phan nay la de khi hover vao the home thi khong bi anh huong den phim menu */
+    
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    /* phan nay la lam cho khi hover vao the li thi no se an het ca chieu ngang trinh duyet */
+    #nav li:hover a{
+        display:block;
+    }
+    #nav{
+        display: block; 
+        /* de khi hover vao the li thi no an het ca chieu ngang trinh duyet */
+    }
+    #header .mobile-menu-buttom{/*phai dung thuoc tinh nay boi vi khi cho the nav display:block thi no se chiem het chieu ngang va khong
+        con cho cho o menu nen phai dung position de hien thi no noi len tren*/
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+    /* day la phan hien thi subnav tren mobile */
+    #nav li:hover .subnav{
+        display: block;
+    }
+    
+    #nav .subnav{
+        position:initial;
+        background-color: #333;
+    }
+    #nav .subnav li a{
+        color: #fff;
+    }
+    #nav .subnav a{
+        padding: 0 41px;
+        line-height: 47px;
+    }
+    /* day la phan hien anh tren pc */
+    #content .member-img{
+        width: 60%;
+    }
+    /* day la phan lam cho nut buy ticket to ra */
+    .place-buy-buttom{
+        text-align: center;
+        padding:14px 16px;
+    } 
+        /*tao khoong cach giua info va form  */
+    .contact-form{
+        margin-top: 16px;
+    }
+    
+    /* lam cho nut send duoc to ra 100% */
+    .input-send{
+
+    }
+    /* tang khoang cach giua cac thong tin lien he */
+    #footer .socials-list a{
+        font-size: 48px;
+        margin: 0 8px;
+    }
+}
